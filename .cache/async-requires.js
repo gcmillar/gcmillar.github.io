@@ -2,7 +2,6 @@
 const preferDefault = m => m && m.default || m
 
 exports.components = {
-  "component---cache-dev-404-page-js": require("gatsby-module-loader?name=component---cache-dev-404-page-js!/Users/garrettmillar/gcmillar.github.io/.cache/dev-404-page.js"),
   "component---src-pages-404-js": require("gatsby-module-loader?name=component---src-pages-404-js!/Users/garrettmillar/gcmillar.github.io/src/pages/404.js"),
   "component---src-pages-crowd-scores-js": require("gatsby-module-loader?name=component---src-pages-crowd-scores-js!/Users/garrettmillar/gcmillar.github.io/src/pages/CrowdScores.js"),
   "component---src-pages-gradient-js": require("gatsby-module-loader?name=component---src-pages-gradient-js!/Users/garrettmillar/gcmillar.github.io/src/pages/Gradient.js"),
@@ -18,7 +17,6 @@ exports.components = {
 
 exports.json = {
   "layout-index.json": require("gatsby-module-loader?name=path---!/Users/garrettmillar/gcmillar.github.io/.cache/json/layout-index.json"),
-  "dev-404-page.json": require("gatsby-module-loader?name=path---dev-404-page!/Users/garrettmillar/gcmillar.github.io/.cache/json/dev-404-page.json"),
   "404.json": require("gatsby-module-loader?name=path---404!/Users/garrettmillar/gcmillar.github.io/.cache/json/404.json"),
   "crowd-scores.json": require("gatsby-module-loader?name=path---crowd-scores!/Users/garrettmillar/gcmillar.github.io/.cache/json/crowd-scores.json"),
   "gradient.json": require("gatsby-module-loader?name=path---gradient!/Users/garrettmillar/gcmillar.github.io/.cache/json/gradient.json"),

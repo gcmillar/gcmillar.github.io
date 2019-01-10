@@ -9,8 +9,8 @@
       "path---gradient-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-bc304eb7448ce063d7b9.js",
-      "component---src-pages-index-js-bc304eb7448ce063d7b9.js.map"
+      "component---src-pages-index-js-afaa620ac50a08c0e67c.js",
+      "component---src-pages-index-js-afaa620ac50a08c0e67c.js.map"
     ],
     "path---suggestv": [
       "path---suggestv-a0e39f21c11f6a62c5ab.js",
@@ -21,8 +21,8 @@
       "path---crowd-scores-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-suggestv-js": [
-      "component---src-pages-suggestv-js-086790a10f57ab4809fc.js",
-      "component---src-pages-suggestv-js-086790a10f57ab4809fc.js.map"
+      "component---src-pages-suggestv-js-0237353db6b2a63d5e04.js",
+      "component---src-pages-suggestv-js-0237353db6b2a63d5e04.js.map"
     ],
     "path---quidco": [
       "path---quidco-a0e39f21c11f6a62c5ab.js",
@@ -31,6 +31,10 @@
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
+    ],
+    "path---vivy": [
+      "path---vivy-a0e39f21c11f6a62c5ab.js",
+      "path---vivy-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---numilli": [
       "path---numilli-a0e39f21c11f6a62c5ab.js",
@@ -45,8 +49,8 @@
       "component---src-pages-gradient-js-84b35a86fce930eb6795.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-f7a767b8e607f8ba33aa.js",
-      "component---src-layouts-index-js-f7a767b8e607f8ba33aa.js.map"
+      "component---src-layouts-index-js-e654486d41e54093f7ef.js",
+      "component---src-layouts-index-js-e654486d41e54093f7ef.js.map"
     ],
     "path---page-2": [
       "path---page-2-a0e39f21c11f6a62c5ab.js",
@@ -65,8 +69,8 @@
       "component---src-pages-404-js-d8c7bb5f40f03c6c8fb4.js.map"
     ],
     "commons": [
-      "commons-bd34a4c9630cec200368.js",
-      "commons-bd34a4c9630cec200368.js.map"
+      "commons-fcb72f467bf0431dddb2.js",
+      "commons-fcb72f467bf0431dddb2.js.map"
     ],
     "path---404-html": [
       "path---404-html-a0e39f21c11f6a62c5ab.js",
@@ -81,14 +85,14 @@
       "path---thanks-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-c2970a2c8d1e288f7e98.js",
+      "app-a5f5fe9246dc650cb497.js",
       "build-js-styles.css",
-      "app-c2970a2c8d1e288f7e98.js.map",
+      "app-a5f5fe9246dc650cb497.js.map",
       "build-js-styles.css.map"
     ],
     "component---src-pages-crowd-scores-js": [
-      "component---src-pages-crowd-scores-js-a96dcdabe36dd23b946f.js",
-      "component---src-pages-crowd-scores-js-a96dcdabe36dd23b946f.js.map"
+      "component---src-pages-crowd-scores-js-35164b75bc0ecaaac685.js",
+      "component---src-pages-crowd-scores-js-35164b75bc0ecaaac685.js.map"
     ],
     "component---src-pages-quidco-js": [
       "component---src-pages-quidco-js-29ed202d287721ca0efe.js",
@@ -101,6 +105,10 @@
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
       "path---404-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-vivy-js": [
+      "component---src-pages-vivy-js-47053e1e932710aab4a9.js",
+      "component---src-pages-vivy-js-47053e1e932710aab4a9.js.map"
     ]
   }
 }

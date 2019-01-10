@@ -7,7 +7,6 @@ exports.layouts = {
 }
 
 exports.components = {
-  "component---cache-dev-404-page-js": preferDefault(require("/Users/garrettmillar/gcmillar.github.io/.cache/dev-404-page.js")),
   "component---src-pages-404-js": preferDefault(require("/Users/garrettmillar/gcmillar.github.io/src/pages/404.js")),
   "component---src-pages-crowd-scores-js": preferDefault(require("/Users/garrettmillar/gcmillar.github.io/src/pages/CrowdScores.js")),
   "component---src-pages-gradient-js": preferDefault(require("/Users/garrettmillar/gcmillar.github.io/src/pages/Gradient.js")),
@@ -23,7 +22,6 @@ exports.components = {
 
 exports.json = {
   "layout-index.json": require("/Users/garrettmillar/gcmillar.github.io/.cache/json/layout-index.json"),
-  "dev-404-page.json": require("/Users/garrettmillar/gcmillar.github.io/.cache/json/dev-404-page.json"),
   "404.json": require("/Users/garrettmillar/gcmillar.github.io/.cache/json/404.json"),
   "crowd-scores.json": require("/Users/garrettmillar/gcmillar.github.io/.cache/json/crowd-scores.json"),
   "gradient.json": require("/Users/garrettmillar/gcmillar.github.io/.cache/json/gradient.json"),
