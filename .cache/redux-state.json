@@ -3,7 +3,7 @@
     "SitePage /dev-404-page/": {
       "path": "/dev-404-page/",
       "id": "SitePage /dev-404-page/",
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
@@ -11,9 +11,9 @@
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin dev-404-page": {
+    "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5": {
       "resolve": "/Users/garrettmillar/gcmillar.github.io/node_modules/gatsby/dist/internal-plugins/dev-404-page",
-      "id": "Plugin dev-404-page",
+      "id": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
       "name": "dev-404-page",
       "version": "1.0.0",
       "pluginOptions": {
@@ -38,37 +38,33 @@
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "9b5e88d309acc4134bceb8760f0e531c",
+        "contentDigest": "2f79191f6c0daa4d7e5097a8b5fd07ff",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin component-layout-creator": {
-      "resolve": "/Users/garrettmillar/gcmillar.github.io/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
-      "id": "Plugin component-layout-creator",
-      "name": "component-layout-creator",
+    "1fc32581-893a-55e8-8927-bcd667e2b700": {
+      "resolve": "/Users/garrettmillar/gcmillar.github.io/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "id": "1fc32581-893a-55e8-8927-bcd667e2b700",
+      "name": "load-babel-config",
       "version": "1.0.0",
       "pluginOptions": {
         "plugins": []
       },
       "nodeAPIs": [
-        "createLayouts"
+        "onPreBootstrap"
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/garrettmillar/gcmillar.github.io/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "pluginFilepath": "/Users/garrettmillar/gcmillar.github.io/node_modules/gatsby/dist/internal-plugins/load-babel-config",
       "packageJson": {
-        "name": "component-layout-creator",
-        "description": "An internal Gatsby plugin that creates pages from component files in src/layouts",
+        "name": "load-babel-config",
+        "description": "Internal plugin that handles loading Babel configs",
         "version": "1.0.0",
         "main": "index.js",
-        "keywords": [
-          "gatsby",
-          "gatsby-plugin"
-        ],
         "author": "Kyle Mathews <mathews.kyle@gmail.com>",
         "license": "MIT",
         "dependencies": [],
@@ -77,17 +73,17 @@
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "ecb228d1527ff852f6bce1d4f25d9327",
+        "contentDigest": "5b9118cdb2815bb3eaa6db58e80d2459",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin internal-data-bridge": {
+    "a5079d69-ba80-53dc-82f9-0f440bd5448c": {
       "resolve": "/Users/garrettmillar/gcmillar.github.io/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
-      "id": "Plugin internal-data-bridge",
+      "id": "a5079d69-ba80-53dc-82f9-0f440bd5448c",
       "name": "internal-data-bridge",
       "version": "1.0.0",
       "pluginOptions": {
@@ -113,17 +109,17 @@
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "072e0f3a2539307898f854896a8dc3bf",
+        "contentDigest": "a0b76962f532f3ec3f58d3c06f845bd8",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin prod-404": {
+    "f795702c-a3b8-5a88-88ee-5d06019d44fa": {
       "resolve": "/Users/garrettmillar/gcmillar.github.io/node_modules/gatsby/dist/internal-plugins/prod-404",
-      "id": "Plugin prod-404",
+      "id": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
       "name": "prod-404",
       "version": "1.0.0",
       "pluginOptions": {
@@ -148,25 +144,24 @@
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "8205b4a8c51e8f79a06cbf4b1f9e5003",
+        "contentDigest": "8f7d95c2d99ebb14a24702b2de73b4d1",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin query-runner": {
+    "84dad27f-1d44-51fc-ac56-4db2e5222995": {
       "resolve": "/Users/garrettmillar/gcmillar.github.io/node_modules/gatsby/dist/internal-plugins/query-runner",
-      "id": "Plugin query-runner",
+      "id": "84dad27f-1d44-51fc-ac56-4db2e5222995",
       "name": "query-runner",
       "version": "1.0.0",
       "pluginOptions": {
         "plugins": []
       },
       "nodeAPIs": [
-        "onCreatePage",
-        "onCreateLayout"
+        "onCreatePage"
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
@@ -184,17 +179,52 @@
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "f845b0de54f8926645dc8373967342bb",
+        "contentDigest": "93e6291b80457670242564b2a554b353",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin gatsby-plugin-react-helmet": {
+    "6f4b2fa9-66b5-5205-a03f-140005a2cfe5": {
+      "resolve": "/Users/garrettmillar/gcmillar.github.io/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "id": "6f4b2fa9-66b5-5205-a03f-140005a2cfe5",
+      "name": "webpack-theme-component-shadowing",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/garrettmillar/gcmillar.github.io/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "packageJson": {
+        "name": "webpack-theme-component-shadowing",
+        "description": "An internal Gatsby plugin which handles configuring webpack to ensure theme components fall back from the user's site to theme modules.",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Chris Biscardi <chris@christopherbiscardi.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "29bba82f41b9c2b77fa1e91c1ea4812d",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1943ff2f-9c0c-558d-8d0c-006603e8106a": {
       "resolve": "/Users/garrettmillar/gcmillar.github.io/node_modules/gatsby-plugin-react-helmet",
-      "id": "Plugin gatsby-plugin-react-helmet",
+      "id": "1943ff2f-9c0c-558d-8d0c-006603e8106a",
       "name": "gatsby-plugin-react-helmet",
       "version": "2.0.11",
       "pluginOptions": {
@@ -261,17 +291,17 @@
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "7ab9ba0ac37b93be65aa99cb7d28b90a",
+        "contentDigest": "cac0a7dd51902870a405533c30db8f4f",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin default-site-plugin": {
+    "7374ebf2-d961-52ee-92a2-c25e7cb387a9": {
       "resolve": "/Users/garrettmillar/gcmillar.github.io",
-      "id": "Plugin default-site-plugin",
+      "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
       "version": "eaa61ffe3f4a02839accddc7d0f7e9ce",
       "pluginOptions": {
@@ -322,19 +352,19 @@
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "e3ba0d310688e48f9bbba8c70e3ed396",
+        "contentDigest": "278cac0224a2161858e491c8fb07fd87",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin gatsby-plugin-page-creator": {
+    "ec1a7a8e-1855-57cc-abed-4debd16db304": {
       "resolve": "/Users/garrettmillar/gcmillar.github.io/node_modules/gatsby-plugin-page-creator",
-      "id": "Plugin gatsby-plugin-page-creator",
+      "id": "ec1a7a8e-1855-57cc-abed-4debd16db304",
       "name": "gatsby-plugin-page-creator",
-      "version": "1.0.1",
+      "version": "2.0.5",
       "pluginOptions": {
         "plugins": [],
         "path": "/Users/garrettmillar/gcmillar.github.io/src/pages",
@@ -349,7 +379,7 @@
       "packageJson": {
         "name": "gatsby-plugin-page-creator",
         "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
-        "version": "1.0.1",
+        "version": "2.0.5",
         "main": "index.js",
         "keywords": [
           "gatsby",
@@ -362,8 +392,8 @@
         "license": "MIT",
         "dependencies": [
           {
-            "name": "babel-runtime",
-            "version": "^6.26.0"
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
           },
           {
             "name": "bluebird",
@@ -374,12 +404,20 @@
             "version": "^1.7.0"
           },
           {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
             "name": "glob",
             "version": "^7.1.1"
           },
           {
             "name": "lodash",
-            "version": "^4.17.4"
+            "version": "^4.17.10"
+          },
+          {
+            "name": "micromatch",
+            "version": "^3.1.10"
           },
           {
             "name": "parse-filepath",
@@ -392,22 +430,35 @@
         ],
         "devDependencies": [
           {
-            "name": "babel-cli",
-            "version": "^6.26.0"
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
           },
           {
             "name": "cross-env",
             "version": "^5.0.5"
           }
         ],
-        "peerDependencies": [],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "9d5091adedb0bc34ab12fb9b004a7450",
+        "contentDigest": "ce86f69378bb90ac9a88e26f5ce00841",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -418,279 +469,324 @@
       },
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-01-10T04:37:47.379Z",
+      "buildTime": "2019-01-10T04:50:57.053Z",
       "id": "Site",
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "1c78cfe3d674e32dbf0a7236698c76b5",
+        "contentDigest": "701a239ac9c4deab269fe5dcae13e7a2",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
     },
     "SitePage /404/": {
-      "layout": "index",
-      "jsonName": "404.json",
+      "jsonName": "404-22d",
       "internalComponentName": "Component404",
       "path": "/404/",
       "component": "/Users/garrettmillar/gcmillar.github.io/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
       "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
-      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "pluginCreator___NODE": "ec1a7a8e-1855-57cc-abed-4debd16db304",
+      "pluginCreatorId": "ec1a7a8e-1855-57cc-abed-4debd16db304",
       "componentPath": "/Users/garrettmillar/gcmillar.github.io/src/pages/404.js",
       "id": "SitePage /404/",
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "d69d2608d49054ba721b928a9d6cebe6",
-        "description": "Plugin gatsby-plugin-page-creator",
+        "contentDigest": "1be459875d055d1d0639fe7cf18988ea",
+        "description": "ec1a7a8e-1855-57cc-abed-4debd16db304",
         "owner": "internal-data-bridge"
       }
     },
     "SitePage /CrowdScores/": {
-      "layout": "index",
-      "jsonName": "crowd-scores.json",
+      "jsonName": "crowd-scores-1e1",
       "internalComponentName": "ComponentCrowdScores",
       "path": "/CrowdScores/",
       "component": "/Users/garrettmillar/gcmillar.github.io/src/pages/CrowdScores.js",
       "componentChunkName": "component---src-pages-crowd-scores-js",
       "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
-      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "pluginCreator___NODE": "ec1a7a8e-1855-57cc-abed-4debd16db304",
+      "pluginCreatorId": "ec1a7a8e-1855-57cc-abed-4debd16db304",
       "componentPath": "/Users/garrettmillar/gcmillar.github.io/src/pages/CrowdScores.js",
       "id": "SitePage /CrowdScores/",
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "1fcb80cc8f7d82ddceb571790567d7a9",
-        "description": "Plugin gatsby-plugin-page-creator",
+        "contentDigest": "c61b24ba4c6a0052577f3e892377d89a",
+        "description": "ec1a7a8e-1855-57cc-abed-4debd16db304",
         "owner": "internal-data-bridge"
       }
     },
     "SitePage /Gradient/": {
-      "layout": "index",
-      "jsonName": "gradient.json",
+      "jsonName": "gradient-2dc",
       "internalComponentName": "ComponentGradient",
       "path": "/Gradient/",
       "component": "/Users/garrettmillar/gcmillar.github.io/src/pages/Gradient.js",
       "componentChunkName": "component---src-pages-gradient-js",
       "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
-      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "pluginCreator___NODE": "ec1a7a8e-1855-57cc-abed-4debd16db304",
+      "pluginCreatorId": "ec1a7a8e-1855-57cc-abed-4debd16db304",
       "componentPath": "/Users/garrettmillar/gcmillar.github.io/src/pages/Gradient.js",
       "id": "SitePage /Gradient/",
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "51a38df37b35b2d3ebdc62122be2b379",
-        "description": "Plugin gatsby-plugin-page-creator",
+        "contentDigest": "8f302c8f83b1ca500b4f0e09f892a44b",
+        "description": "ec1a7a8e-1855-57cc-abed-4debd16db304",
         "owner": "internal-data-bridge"
       }
     },
     "SitePage /": {
-      "layout": "index",
-      "jsonName": "index.json",
+      "jsonName": "index",
       "internalComponentName": "ComponentIndex",
       "path": "/",
       "component": "/Users/garrettmillar/gcmillar.github.io/src/pages/index.js",
       "componentChunkName": "component---src-pages-index-js",
       "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
-      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "pluginCreator___NODE": "ec1a7a8e-1855-57cc-abed-4debd16db304",
+      "pluginCreatorId": "ec1a7a8e-1855-57cc-abed-4debd16db304",
       "componentPath": "/Users/garrettmillar/gcmillar.github.io/src/pages/index.js",
       "id": "SitePage /",
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "1b4252560c67803324ff54294d38c952",
-        "description": "Plugin gatsby-plugin-page-creator",
+        "contentDigest": "38471d65d4110e2a34daf3aab995fb28",
+        "description": "ec1a7a8e-1855-57cc-abed-4debd16db304",
         "owner": "internal-data-bridge"
       }
     },
     "SitePage /Numilli/": {
-      "layout": "index",
-      "jsonName": "numilli.json",
+      "jsonName": "numilli-7b9",
       "internalComponentName": "ComponentNumilli",
       "path": "/Numilli/",
       "component": "/Users/garrettmillar/gcmillar.github.io/src/pages/Numilli.js",
       "componentChunkName": "component---src-pages-numilli-js",
       "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
-      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "pluginCreator___NODE": "ec1a7a8e-1855-57cc-abed-4debd16db304",
+      "pluginCreatorId": "ec1a7a8e-1855-57cc-abed-4debd16db304",
       "componentPath": "/Users/garrettmillar/gcmillar.github.io/src/pages/Numilli.js",
       "id": "SitePage /Numilli/",
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "5181adcd1c536b21727cc986d802c62b",
-        "description": "Plugin gatsby-plugin-page-creator",
+        "contentDigest": "084727c94ccb66c49ac9abbca39c0ebd",
+        "description": "ec1a7a8e-1855-57cc-abed-4debd16db304",
         "owner": "internal-data-bridge"
       }
     },
     "SitePage /page-2/": {
-      "layout": "index",
-      "jsonName": "page-2.json",
+      "jsonName": "page-2-fbc",
       "internalComponentName": "ComponentPage2",
       "path": "/page-2/",
       "component": "/Users/garrettmillar/gcmillar.github.io/src/pages/page-2.js",
       "componentChunkName": "component---src-pages-page-2-js",
       "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
-      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "pluginCreator___NODE": "ec1a7a8e-1855-57cc-abed-4debd16db304",
+      "pluginCreatorId": "ec1a7a8e-1855-57cc-abed-4debd16db304",
       "componentPath": "/Users/garrettmillar/gcmillar.github.io/src/pages/page-2.js",
       "id": "SitePage /page-2/",
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f1608edaa8e535be90d799243ebd21a3",
-        "description": "Plugin gatsby-plugin-page-creator",
+        "contentDigest": "aa37ef8f0a79423dcc6f1ffc9ff696ee",
+        "description": "ec1a7a8e-1855-57cc-abed-4debd16db304",
         "owner": "internal-data-bridge"
       }
     },
     "SitePage /Quidco/": {
-      "layout": "index",
-      "jsonName": "quidco.json",
+      "jsonName": "quidco-c0a",
       "internalComponentName": "ComponentQuidco",
       "path": "/Quidco/",
       "component": "/Users/garrettmillar/gcmillar.github.io/src/pages/Quidco.js",
       "componentChunkName": "component---src-pages-quidco-js",
       "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
-      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "pluginCreator___NODE": "ec1a7a8e-1855-57cc-abed-4debd16db304",
+      "pluginCreatorId": "ec1a7a8e-1855-57cc-abed-4debd16db304",
       "componentPath": "/Users/garrettmillar/gcmillar.github.io/src/pages/Quidco.js",
       "id": "SitePage /Quidco/",
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "4bd9be91bea3a0389f389ee374fe2148",
-        "description": "Plugin gatsby-plugin-page-creator",
+        "contentDigest": "ebfaa63538597c6a9d53db8e330ba81d",
+        "description": "ec1a7a8e-1855-57cc-abed-4debd16db304",
         "owner": "internal-data-bridge"
       }
     },
     "SitePage /Suggestv/": {
-      "layout": "index",
-      "jsonName": "suggestv.json",
+      "jsonName": "suggestv-d96",
       "internalComponentName": "ComponentSuggestv",
       "path": "/Suggestv/",
       "component": "/Users/garrettmillar/gcmillar.github.io/src/pages/Suggestv.js",
       "componentChunkName": "component---src-pages-suggestv-js",
       "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
-      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "pluginCreator___NODE": "ec1a7a8e-1855-57cc-abed-4debd16db304",
+      "pluginCreatorId": "ec1a7a8e-1855-57cc-abed-4debd16db304",
       "componentPath": "/Users/garrettmillar/gcmillar.github.io/src/pages/Suggestv.js",
       "id": "SitePage /Suggestv/",
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "43b8b4fa10423595e8c5636b355d4d2e",
-        "description": "Plugin gatsby-plugin-page-creator",
+        "contentDigest": "2dce6fc7808e230d14595e08bad718bc",
+        "description": "ec1a7a8e-1855-57cc-abed-4debd16db304",
         "owner": "internal-data-bridge"
       }
     },
     "SitePage /Thanks/": {
-      "layout": "index",
-      "jsonName": "thanks.json",
+      "jsonName": "thanks-03c",
       "internalComponentName": "ComponentThanks",
       "path": "/Thanks/",
       "component": "/Users/garrettmillar/gcmillar.github.io/src/pages/Thanks.js",
       "componentChunkName": "component---src-pages-thanks-js",
       "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
-      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "pluginCreator___NODE": "ec1a7a8e-1855-57cc-abed-4debd16db304",
+      "pluginCreatorId": "ec1a7a8e-1855-57cc-abed-4debd16db304",
       "componentPath": "/Users/garrettmillar/gcmillar.github.io/src/pages/Thanks.js",
       "id": "SitePage /Thanks/",
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "853f66cba95c328289625553f72021c8",
-        "description": "Plugin gatsby-plugin-page-creator",
+        "contentDigest": "97a8dc93b985a4dbfe5de8ca1a87106a",
+        "description": "ec1a7a8e-1855-57cc-abed-4debd16db304",
         "owner": "internal-data-bridge"
       }
     },
     "SitePage /Vivy/": {
-      "layout": "index",
-      "jsonName": "vivy.json",
+      "jsonName": "vivy-817",
       "internalComponentName": "ComponentVivy",
       "path": "/Vivy/",
       "component": "/Users/garrettmillar/gcmillar.github.io/src/pages/Vivy.js",
       "componentChunkName": "component---src-pages-vivy-js",
       "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
-      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "pluginCreator___NODE": "ec1a7a8e-1855-57cc-abed-4debd16db304",
+      "pluginCreatorId": "ec1a7a8e-1855-57cc-abed-4debd16db304",
       "componentPath": "/Users/garrettmillar/gcmillar.github.io/src/pages/Vivy.js",
       "id": "SitePage /Vivy/",
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "5d6ce400b47901141fecb7d53918c557",
-        "description": "Plugin gatsby-plugin-page-creator",
+        "contentDigest": "5ba306568c2d4b0995253502cdc6e447",
+        "description": "ec1a7a8e-1855-57cc-abed-4debd16db304",
         "owner": "internal-data-bridge"
       }
     },
     "SitePage /Yunojuno/": {
-      "layout": "index",
-      "jsonName": "yunojuno.json",
+      "jsonName": "yunojuno-002",
       "internalComponentName": "ComponentYunojuno",
       "path": "/Yunojuno/",
       "component": "/Users/garrettmillar/gcmillar.github.io/src/pages/Yunojuno.js",
       "componentChunkName": "component---src-pages-yunojuno-js",
       "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
-      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "pluginCreator___NODE": "ec1a7a8e-1855-57cc-abed-4debd16db304",
+      "pluginCreatorId": "ec1a7a8e-1855-57cc-abed-4debd16db304",
       "componentPath": "/Users/garrettmillar/gcmillar.github.io/src/pages/Yunojuno.js",
       "id": "SitePage /Yunojuno/",
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "4fe015dc50d8db7144ed8b4cc2d1e64e",
-        "description": "Plugin gatsby-plugin-page-creator",
+        "contentDigest": "0f0cc752ba6af0b6109641eaa6557e29",
+        "description": "ec1a7a8e-1855-57cc-abed-4debd16db304",
         "owner": "internal-data-bridge"
       }
     },
     "SitePage /404.html": {
-      "layout": "index",
-      "jsonName": "404-html.json",
+      "jsonName": "404-html-516",
       "internalComponentName": "Component404Html",
       "path": "/404.html",
       "component": "/Users/garrettmillar/gcmillar.github.io/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
       "context": {},
-      "pluginCreator___NODE": "Plugin prod-404",
-      "pluginCreatorId": "Plugin prod-404",
+      "pluginCreator___NODE": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "pluginCreatorId": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
       "componentPath": "/Users/garrettmillar/gcmillar.github.io/src/pages/404.js",
       "id": "SitePage /404.html",
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "6552efcd2f03f1885ab09d7e0a2631a0",
-        "description": "Plugin prod-404",
+        "contentDigest": "1e12aa3c8d573f86fe258af671abe52c",
+        "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
         "owner": "internal-data-bridge"
       }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "7a4e26bb3026ba29ec5d511a4304e662"
+    "PLUGINS_HASH": "6d91c17202b5030aba57f2fad54ad041"
   },
   "componentDataDependencies": {
     "nodes": {},
-    "connections": {
-      "SitePage": [
-        "/dev-404-page/"
-      ]
+    "connections": {}
+  },
+  "jsonDataPaths": {
+    "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
+    "gradient-2dc": "513/path---gradient-2-dc-cc6-NZuapzHg3X9TaN1iIixfv1W23E",
+    "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
+    "crowd-scores-1e1": "114/path---crowd-scores-1-e-1-c1b-NZuapzHg3X9TaN1iIixfv1W23E",
+    "numilli-7b9": "449/path---numilli-7-b-9-e34-NZuapzHg3X9TaN1iIixfv1W23E",
+    "page-2-fbc": "53/path---page-2-fbc-5a8-NZuapzHg3X9TaN1iIixfv1W23E",
+    "quidco-c0a": "322/path---quidco-c-0-a-ca5-NZuapzHg3X9TaN1iIixfv1W23E",
+    "suggestv-d96": "473/path---suggestv-d-96-a83-NZuapzHg3X9TaN1iIixfv1W23E",
+    "thanks-03c": "285/path---thanks-03-c-f62-NZuapzHg3X9TaN1iIixfv1W23E",
+    "vivy-817": "169/path---vivy-817-05f-NZuapzHg3X9TaN1iIixfv1W23E",
+    "yunojuno-002": "701/path---yunojuno-002-85e-NZuapzHg3X9TaN1iIixfv1W23E",
+    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E"
+  },
+  "components": {
+    "/Users/garrettmillar/gcmillar.github.io/src/pages/404.js": {
+      "query": "",
+      "componentPath": "/Users/garrettmillar/gcmillar.github.io/src/pages/404.js"
+    },
+    "/Users/garrettmillar/gcmillar.github.io/src/pages/CrowdScores.js": {
+      "query": "",
+      "componentPath": "/Users/garrettmillar/gcmillar.github.io/src/pages/CrowdScores.js"
+    },
+    "/Users/garrettmillar/gcmillar.github.io/src/pages/Gradient.js": {
+      "query": "",
+      "componentPath": "/Users/garrettmillar/gcmillar.github.io/src/pages/Gradient.js"
+    },
+    "/Users/garrettmillar/gcmillar.github.io/src/pages/index.js": {
+      "query": "",
+      "componentPath": "/Users/garrettmillar/gcmillar.github.io/src/pages/index.js"
+    },
+    "/Users/garrettmillar/gcmillar.github.io/src/pages/Numilli.js": {
+      "query": "",
+      "componentPath": "/Users/garrettmillar/gcmillar.github.io/src/pages/Numilli.js"
+    },
+    "/Users/garrettmillar/gcmillar.github.io/src/pages/page-2.js": {
+      "query": "",
+      "componentPath": "/Users/garrettmillar/gcmillar.github.io/src/pages/page-2.js"
+    },
+    "/Users/garrettmillar/gcmillar.github.io/src/pages/Quidco.js": {
+      "query": "",
+      "componentPath": "/Users/garrettmillar/gcmillar.github.io/src/pages/Quidco.js"
+    },
+    "/Users/garrettmillar/gcmillar.github.io/src/pages/Suggestv.js": {
+      "query": "",
+      "componentPath": "/Users/garrettmillar/gcmillar.github.io/src/pages/Suggestv.js"
+    },
+    "/Users/garrettmillar/gcmillar.github.io/src/pages/Thanks.js": {
+      "query": "",
+      "componentPath": "/Users/garrettmillar/gcmillar.github.io/src/pages/Thanks.js"
+    },
+    "/Users/garrettmillar/gcmillar.github.io/src/pages/Vivy.js": {
+      "query": "",
+      "componentPath": "/Users/garrettmillar/gcmillar.github.io/src/pages/Vivy.js"
+    },
+    "/Users/garrettmillar/gcmillar.github.io/src/pages/Yunojuno.js": {
+      "query": "",
+      "componentPath": "/Users/garrettmillar/gcmillar.github.io/src/pages/Yunojuno.js"
     }
-  }
+  },
+  "staticQueryComponents": {}
 }
