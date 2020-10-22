@@ -4213,7 +4213,8 @@ code {
         width: 3%
     }
     .w-22-ns {
-        max-width: 20%
+        max-width: 10%;
+        min-width: 5%;
     }
     .w-24-ns {
         width: 22%
@@ -5265,8 +5266,8 @@ code {
     .flex-auto-m {
         -ms-flex: 1 1 auto;
         flex: 1 1 auto;
-        min-width: 0;
-        min-height: 0
+        min-width: 5%;
+        min-height: 5%;
     }
     .flex-none-m {
         -ms-flex: none;
