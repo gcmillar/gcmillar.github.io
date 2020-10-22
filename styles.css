@@ -207,6 +207,8 @@ progress {
 .br5 {
     border-radius: 7px;
     padding-bottom: 3px;
+    min-width: 10%;
+    max-width: 20%;
 }
 
 .round {
@@ -1246,11 +1248,13 @@ code {
 }
 
 .w4 {
-    width: 8rem
+    width: 90%
 }
 
 .w5 {
-    max-width: 10rem
+    width: fit-content;
+    /* max-width: 50%;
+    min-width: 10%; */
 }
 
 .w50 {
@@ -1282,7 +1286,9 @@ code {
 }
 
 .w-30 {
-    width: 30%
+    width: 40%!important;
+    max-width: 40%!important;
+    min-width: 20%!important
 }
 
 .w-33 {
