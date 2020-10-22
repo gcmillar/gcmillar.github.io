@@ -4,6 +4,44 @@ img[alt=""] {
     border: 5px dashed pink
 }
 
+* {
+    box-sizing: border-box;
+}
+
+
+/* Container for flexboxes */
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* Create four equal columns */
+
+.column {
+    flex: 25%;
+    padding: 20px;
+}
+
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+
+@media screen and (max-width: 992px) {
+    .column {
+        flex: 50%;
+    }
+}
+
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 600px) {
+    .row {
+        flex-direction: column;
+    }
+}
+
 h1 {
     padding-bottom: 0
 }
@@ -736,7 +774,8 @@ ul {
 
 .dib {
     display: inline-block;
-    padding: 0
+    padding: 3px 3px 3px 3px;
+    /* min-width: 60% */
 }
 
 .dit {
@@ -1142,6 +1181,10 @@ code {
     list-style-type: none
 }
 
+.mw40 {
+    max-width: 40%
+}
+
 .mw1 {
     max-width: 1rem
 }
@@ -1207,7 +1250,7 @@ code {
 }
 
 .w5 {
-    width: 16rem
+    max-width: 10rem
 }
 
 .w50 {
@@ -1260,6 +1303,10 @@ code {
 
 .w-60 {
     width: 60%
+}
+
+.w-60 {
+    width: 65%
 }
 
 .w-70 {
@@ -3268,7 +3315,7 @@ code {
 
 .v-top {
     vertical-align: top;
-    padding: 0
+    padding: 3px 3px 3px 3px
 }
 
 .v-btm {
@@ -4163,10 +4210,10 @@ code {
         width: 15%
     }
     .w-20-ns {
-        width: 20%
+        width: 3%
     }
     .w-22-ns {
-        width: 22%
+        max-width: 20%
     }
     .w-24-ns {
         width: 22%
@@ -7049,7 +7096,7 @@ code {
         padding-left: 0
     }
     .pl1-l {
-        padding-left: .25rem
+        padding-left: .5rem
     }
     .pl2-l {
         padding-left: .5rem
@@ -7073,7 +7120,7 @@ code {
         padding-right: 0
     }
     .pr1-l {
-        padding-right: .25rem
+        padding-right: .5rem
     }
     .pr2-l {
         padding-right: .5rem
