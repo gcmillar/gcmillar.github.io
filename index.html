@@ -4,7 +4,8 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=0.75, shrink-to-fit=yes" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" type="text/css" media="only screen and (max-width: 480px), only screen and (max-device-width: 480px)" href="/assets/css/small-device.css" />
     <link rel="preload" href="/component---src-layouts-index-js-e654486d41e54093f7ef.js" as="script" />
     <link rel="preload" href="/component---src-pages-index-js-afaa620ac50a08c0e67c.js" as="script" />
     <link rel="preload" href="/path---index-a0e39f21c11f6a62c5ab.js" as="script" />
@@ -34,6 +35,7 @@
     <meta data-react-helmet="true" name="og:image" content="https://gcmillar.github.io/images/preview.png" />
     <meta data-react-helmet="true" name="profile:first_name" content="Garrett" />
     <meta data-react-helmet="true" name="profile:last_name" content="Millar" />
+   
     <style id="gatsby-inlined-css">
         @import url(https://fonts.googleapis.com/css?family=Roboto+Mono:400,700,400i,700i|Libre+Baskerville:400,400i,700);
         img:not([alt]),
@@ -110,8 +112,30 @@
         .grow-large {
             -moz-osx-font-smoothing: grayscale
         }
-        
         body {
+            letter-spacing: .05em;
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            overflow-x: hidden;
+            margin: 0;
+            background-color: #fafafa
+            }
+
+        #wrapper {
+            width: auto;
+            margin: auto;
+            text-align: left;
+            background-color: #fafafa;
+            background-position: left 5px;
+            background-repeat: no-repeat;
+            min-height: 400px;
+        }
+        .article #aside {
+            float: none;
+            width: auto;
+        }
+        /* body {
             letter-spacing: .05em;
             width: 100%;
             height: 100%;
@@ -125,7 +149,7 @@
         body {
             color: #2d3539;
             padding-bottom: 0
-        }
+        } */
         
         input,
         textarea {
@@ -7604,34 +7628,35 @@
                     <div class="db dtc-l v-mid w-100 w-75-l tc tr-l" data-reactid="6"><a class="link dib mr3-l mr0 hover-orange b" target="blank" href="gcmillar-cv.pdf" data-reactid="7">CV</a></div>
                 </div>
             </nav>
-            <div class="center pr5 pl5 mw9 db pa5" data-reactid="8">
+            <div class="flex-auto-m center pr5 pl5 mw9 db pa5" data-reactid="8">
                 <div data-reactid="9">
                     <section class="flex-auto-m" data-reactid="10">
                         <main class="dib v-top pr0 pa3 tl-ns tc vh-10" class="flex-auto-m" data-reactid="11">
                             <h4 class="f1-l mw-none pa3 pl3 pt0-ns  lh-copy" style="font-size:22px;" data-reactid="12">Hello, I&#x27;m Garrett.</h4>
-                            <h3 class="f1-l  pt0-ns pa3 pl3 lh-copy" style="font-size:20px;" data-reactid="13">Geospatial Scientist & UX/HCI Researcher. I design, develop and test mapping applications and platforms.</h3>
+                            <h3 class="f1-l  pt0-ns pa3 pl3 lh-copy" style="font-size:20px;" data-reactid="13">UX/HCI Researcher &amp; Geospatial Scientist. 
+                            I design, develop and test mapping applications and platforms.</h3>
                         </main>
                     </section>
                     <section data-reactid="14">
                         <h1 style="font-size:20px;" data-reactid="15">Projects</h1>
-                        <div class="w-22-ns w5 dib pr0-ns pl1-m mv0 v-top  " data-reactid="16">
-                            <a target="blank" href="https://pops-model.org/" data-reactid="17"><img class="hoverable w-80 br5" src="images/preview/pops.gif" alt="UX/UI" data-reactid="18"></a>
-                            <div class="pv2 pr3" data-reactid="19">
-                                <h3 class="mt3 mb0" data-reactid="20" style="font-size:16px">PoPS</h3>
+                       <div class="w-22-ns w5 dib pr0-ns pl1-m mv0 v-top "  data-reactid="16">
+                            <a target="blank" href="https://pops-model.org/" data-reactid="17"><img class="flex-auto-m hoverable br5" src="images/preview/pops.gif" alt="UX/UI" data-reactid="18"></a>
+                            <div class="pv2 pr3 center" data-reactid="19">
+                                <h3 class="mt3 mb0" data-reactid="20" style="font-size:16px">Pest or Pathogen Spread (PoPS) Model</h3>
                                 <p class="dib f7 secondary-text" data-reactid="21">Geospatial Web Framework</p>
-                                <p style="line-height:20px; font-size:90%" class="secondary-text pb3 mt2 fw4 f6 w-80" data-reactid="22">A framework for modeling the spread of pests or pathogens across a landscape, the Pest or Pathogen Spread (PoPS) Model is designed to help decision-makers, researchers, and students create geospatial distribution models.</p>
+                                <p style="line-height:20px; font-size:90%" class="secondary-text pb3 mt2 fw4 f6 w-80" data-reactid="22">PoPS models the spread of pests or pathogens across landscapes. Designed to help policy makers, land managers, and researchers predict and manage spreading plant disease.</p>
                             </div>
                         </div>
                         <div class="w-22-ns w5 dib pr0-ns pl1-m mv0 v-top " data-reactid="16">
-                            <a target="blank" href="https://gcmillar.github.io/e-motion/" data-reactid="17"><img class="hoverable w-80 br5" src="images/preview/cyclestress.gif" alt="UX/UI" data-reactid="18" title="" style=""></a>
+                            <a target="blank" href="https://gcmillar.github.io/e-motion/" data-reactid="17"><img class="flex-auto-m hoverable br5" src="images/preview/cyclestress.gif" alt="UX/UI" data-reactid="18" title="" style=""></a>
                             <div class="pv2 pr3" data-reactid="19">
                                 <h3 class="mt3 mb0" data-reactid="20" style="font-size:16px">E-Motion</h3>
                                 <p class="dib f7 secondary-text" data-reactid="21">Geospatial Application</p>
-                                <p style="line-height:20px; font-size:90%" class="secondary-text pb3 mt2 fw4 f6 w-80" data-reactid="22">Interactive web-mapping application using location and emotion data from cyclists to see how emotions are affected by our environment. Designed to help city planners design pleasant cycling experiences.</p>
+                                <p style="line-height:20px; font-size:90%" class="secondary-text pb3 mt2 fw4 f6 flex-auto-m" data-reactid="22">Interactive web-mapping application using location and emotion data from cyclists to see how emotions are affected by our environment. Designed to help city planners design pleasant cycling experiences.</p>
                             </div>
                         </div>
                         <div class="w-22-ns w5 dib pr0-ns pl1-m mv0 v-top " data-reactid="16">
-                            <a target="blank" href="https://gcmillar.github.io/Nuenen3d/" data-reactid="17"><img class="hoverable w-80 br5" src="images/preview/nuenen.gif" alt="UX/UI" data-reactid="18"></a>
+                            <a target="blank" href="https://gcmillar.github.io/Nuenen3d/" data-reactid="17"><img class="flex-auto hoverable br5" src="images/preview/nuenen.gif" alt="UX/UI" data-reactid="18" ></a>
                             <div class="pv2 pr3" data-reactid="19">
                                 <h3 class="mt3 mb0" data-reactid="20" style="font-size:16px">Emotion Museum</h3>
                                 <p class="dib f7 secondary-text" data-reactid="21">Geospatial Application</p>
@@ -7639,7 +7664,7 @@
                             </div>
                         </div>
                 <div class="w-22-ns w5 dib pr0-ns pl1-m mv0 v-top " data-reactid="23 ">
-                    <a target="blank " href="https://tangible-landscape.github.io/ " data-reactid="24 "><img class="hoverable w-80 br5 " src="images/preview/tl_interaction.gif " alt="UX/UI " data-reactid="25 " title=" " style=" "></a>
+                    <a target="blank " href="https://tangible-landscape.github.io/ " data-reactid="24 "><img class="flex-auto-m hoverable br5 " src="images/preview/tl_interaction.gif " alt="UX/UI " data-reactid="25 " title=" " style=" "></a>
                     <div class="pv2 pr3 " data-reactid="26 ">
                         <h3 class="mt3 mb0 " data-reactid="27 " style="font-size:16px ">Tangible Landscape</h3>
                         <p class="dib f7 secondary-text " data-reactid="28 ">Geospatial Interface</p>
@@ -7766,7 +7791,8 @@
                         </div>
                     </section>
                     <section class="mt6 w-100 " data-reactid="80 ">
-                        <footer class="pv4 ph3 ph5-ns tc footer w-100 items-center " data-reactid="81 "><a class="link dim round dib h3 w2-5 mr6 pa2 grow center " target="blank " href="https://github.com/gcmillar " title="Github " data-reactid="82
+                        <footer class="pv4 ph3 ph5-ns tc footer w-100 items-center " data-reactid="81 ">
+                        <a class="link dim round dib h3 w2-5 mr6 pa2 grow center " target="blank " href="https://github.com/gcmillar " title="Github " data-reactid="82
                                     "><svg data-icon="github " viewBox="0 0 32 32 " style="fill:#83929A; " data-reactid="83 "><title data-reactid="84 ">github icon</title><path d="M0 18 C0 12 3 10 3 9 C2.5 7 2.5 4 3 3 C6 3 9 5 10 6 C12 5 14 5 16 5 C18 5 20 5 22 6 C23 5 26
                                     3 29 3 C29.5 4 29.5 7 29 9 C29 10 32 12 32 18 C32 25 30 30 16 30 C2 30 0 25 0 18 M3 20 C3 24 4 28 16 28 C28 28 29 24 29 20 C29 16 28 14 16 14 C4 14 3 16 3 20 M8 21 A1.5 2.5 0 0 0 13 21 A1.5 2.5 0 0 0 8 21 M24 21 A1.5 2.5
                                     0 0 0 19 21 A1.5 2.5 0 0 0 24 21 z " data-reactid="85 "></path></svg></a><a class="link dim round dib h3 w2-5 mr6 pa2 grow center " target="blank " href="https://scholar.google.com/citations?user=BaZoAUgAAAAJ&amp;hl=en
@@ -7795,6 +7821,14 @@
         </div>
     </div>
     <script id="webpack-manifest ">
+        function openNav() {
+            if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) && (window.innerWidth < window.innerHeight) ){
+                document.getElementById("Nav").style.width = "100%";
+            } else {
+                document.getElementById("Nav").style.width = "33%";
+                $('body').addClass('stop-scrolling');
+            }
+        }
         /*<![CDATA[*/
         window.webpackManifest = {
                 "231608221292675 ": "app-a5f5fe9246dc650cb497.js ",
@@ -7820,6 +7854,7 @@
         ["/commons-fcb72f467bf0431dddb2.js ", "/app-a5f5fe9246dc650cb497.js ", " / path-- - index - a0e39f21c11f6a62c5ab.js ", " / component-- - src - pages - index - js - afaa620ac50a08c0e67c.js ", " / component-- - src - layouts - index - js - e654486d41e54093f7ef.js
                                     "].forEach(function(s){document.write('<script src=" '+s+' " defer></'+'script>')})/*]]>*/
     </script>
+    
 </body>
 
 </html>

@@ -88,6 +88,19 @@ body {
     background-color: #fafafa
     }
 
+#wrapper {
+    width: auto;
+    margin: auto;
+    text-align: left;
+    background-color: #fafafa;
+    background-position: left 5px;
+    background-repeat: no-repeat;
+    min-height: 400px;
+}
+.article #aside {
+    float: none;
+    width: auto;
+}
 /* body {
     letter-spacing: .05em;
     width: 100%;
@@ -7767,13 +7780,8 @@ progress {
 .br5 {
     border-radius: 7px;
     padding-bottom: 3px;
-<<<<<<< HEAD
     padding-left: 3px;
     padding-right: 3px;
-=======
-    min-width: 10%;
-    max-width: 20%;
->>>>>>> 58148bee715db9c3f3910b500d110b8af9e33a78
 }
 
 .round {
@@ -8813,17 +8821,11 @@ code {
 }
 
 .w4 {
-    width: 90%
+    width: 8rem
 }
 
 .w5 {
-<<<<<<< HEAD
     max-width: 12rem
-=======
-    width: fit-content;
-    /* max-width: 50%;
-    min-width: 10%; */
->>>>>>> 58148bee715db9c3f3910b500d110b8af9e33a78
 }
 
 .w50 {
@@ -8857,9 +8859,7 @@ code {
 }
 
 .w-30 {
-    width: 40%!important;
-    max-width: 40%!important;
-    min-width: 20%!important
+    width: 30%
 }
 
 .w-33 {
