@@ -7777,7 +7777,7 @@ progress {
 }
 
 .round {
-    border-radius: 99px
+    border-radius: 200px
 }
 
 .animated {
@@ -10248,8 +10248,9 @@ code {
 }
 
 .pv2 {
-    padding-top: rem;
-    width: 100%
+    padding-top: 5rem;
+    width: 100%;
+    padding-bottom: 5rem;
 }
 
 .pv2,

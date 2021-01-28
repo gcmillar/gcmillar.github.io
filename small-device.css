@@ -3209,10 +3209,12 @@ code {
 
 .f7 {
     font-size: .75rem;
-    border-collapse: collapse;
-    display: inline
+    border-collapse: unset;
+    display: inline-block;
+    font-display: block;
+    max-height: 110%;
+    min-width: 50%;
 }
-
 .measure {
     max-width: 40em
 }
